@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/addEditScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="1"
+        android:orientation="vertical"
+        android:useDefaultMargins="true" >
+
+        <EditText
+            android:id="@+id/nameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_name"
+            android:imeOptions="actionNext"
+            android:inputType="none" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/directorEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_phone"
+            android:imeOptions="actionNext"
+            android:inputType="text" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/producerEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_email"
+            android:imeOptions="actionNext"
+            android:inputType="text|textEmailAddress" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/actorEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_street"
+            android:imeOptions="actionNext"
+            android:inputType="text|textPostalAddress" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/actressEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_city"
+            android:imeOptions="actionNext"
+            android:inputType="text|textPostalAddress" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/releaseEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_state"
+            android:imeOptions="actionNext"
+            android:inputType="text" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/budgetEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_zip"
+            android:imeOptions="actionDone"
+            android:inputType="text" >
+        </EditText>
+
+        <Button
+            android:id="@+id/saveMovieButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/button_save_movie" >
+        </Button>
+    </GridLayout>
+
+</ScrollView>
