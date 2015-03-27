@@ -28,7 +28,7 @@
         android:id="@+id/directorLabelTextView"
         android:layout_column="0"
         android:layout_row="1"
-        android:text="@string/label_phone"
+        android:text="@string/label_director"
         style="@style/MovieLabelTextView" />
 
     <TextView
@@ -41,7 +41,7 @@
         android:id="@+id/producerLabelTextView"
         android:layout_column="0"
         android:layout_row="2"
-        android:text="@string/label_email"
+        android:text="@string/label_producer"
         style="@style/MovieLabelTextView" />
 
     <TextView
@@ -54,7 +54,7 @@
         android:id="@+id/actorLabelTextView"
         android:layout_column="0"
         android:layout_row="3"
-        android:text="@string/label_street"
+        android:text="@string/label_actor"
         style="@style/MovieLabelTextView" />
 
     <TextView
@@ -67,7 +67,7 @@
         android:id="@+id/actressLabelTextView"
         android:layout_column="0"
         android:layout_row="4"
-        android:text="@string/label_city"
+        android:text="@string/label_actress"
         style="@style/MovieLabelTextView" />
 
     <TextView
@@ -80,7 +80,7 @@
         android:id="@+id/releaseLabelTextView"
         android:layout_column="0"
         android:layout_row="5"
-        android:text="@string/label_state"
+        android:text="@string/label_release"
         style="@style/MovieLabelTextView" />
 
     <TextView
@@ -93,7 +93,7 @@
         android:id="@+id/budgetLabelTextView"
         android:layout_column="0"
         android:layout_row="6"
-        android:text="@string/label_zip"
+        android:text="@string/label_budget"
         style="@style/MovieLabelTextView" />
 
     <TextView
